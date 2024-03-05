@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    padding: 1rem;
+}
+
+.nav-section{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    width: 150px;
+}
+
+.links{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.links:hover{
+    color: #bb1e1e;
+    transition-duration: .5s;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.btn{
+    border: none;
+    padding: 1rem 2rem;
+    text-align: center;
+    outline: none;
+    color: white;
+    background-color: #bb1e1e;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 25px;
+    transition: transform .3s;
+    max-width: 200px;
+    
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition-duration: 300ms;
+    
+}
+
+img {
+    width: 100%;
+    display: flex;
+  }
+
+.hero{
+    padding: 5rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+    width: screen;
+    height: screen;
+    margin-top: 10rem;
+}
+
+
+.headers{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero h4{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.hero h1 {
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 6rem;
+    color: white;
+} 
+
+
+.hero h1 span {
+    margin-right: 1rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #bb1e1e;
+}
+
+.hero p {
+    margin-bottom: 2rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hero img {
+    max-width: 650px;
+    max-height: 650px;
+    margin: auto;
+}
+
+
+
